@@ -1,0 +1,83 @@
+{
+ "config": {
+  "provincia": "Luanda",
+  "transp": 10
+ },
+ "precos": [
+  {
+   "id": 1,
+   "tipo": "venda",
+   "produto": "Milho",
+   "preco": 320,
+   "unidade": "kg",
+   "local": "Mercado (exemplo)",
+   "provincia": "Huambo",
+   "fonte": "Exemplo (demonstração)",
+   "data": "2026-10-23",
+   "exemplo": true
+  },
+  {
+   "id": 2,
+   "tipo": "venda",
+   "produto": "Milho",
+   "preco": 380,
+   "unidade": "kg",
+   "local": "Mercado (exemplo)",
+   "provincia": "Luanda",
+   "fonte": "Exemplo (demonstração)",
+   "data": "2026-10-23",
+   "exemplo": true
+  },
+  {
+   "id": 3,
+   "tipo": "venda",
+   "produto": "Feijão",
+   "preco": 800,
+   "unidade": "kg",
+   "local": "Mercado (exemplo)",
+   "provincia": "Benguela",
+   "fonte": "Exemplo (demonstração)",
+   "data": "2026-10-23",
+   "exemplo": true
+  },
+  {
+   "id": 4,
+   "tipo": "insumo",
+   "produto": "Fertilizante NPK",
+   "preco": 1100,
+   "unidade": "kg",
+   "local": "Mercado (exemplo)",
+   "provincia": "Luanda",
+   "fonte": "Exemplo (demonstração)",
+   "data": "2026-10-23",
+   "exemplo": true
+  },
+  {
+   "id": 5,
+   "tipo": "insumo",
+   "produto": "Fertilizante NPK",
+   "preco": 1250,
+   "unidade": "kg",
+   "local": "Mercado (exemplo)",
+   "provincia": "Huambo",
+   "fonte": "Exemplo (demonstração)",
+   "data": "2026-10-23",
+   "exemplo": true
+  }
+ ],
+ "propostas": [
+  {
+   "id": 1,
+   "comprador": "Rede Kifica",
+   "produto": "Feijão",
+   "preco": 850,
+   "provincia": "Luanda",
+   "data": "2026-10-23",
+   "exemplo": true
+  }
+ ],
+ "prox": {
+  "p": 6,
+  "c": 2
+ }
+}

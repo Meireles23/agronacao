@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: agronacao
+    runtime: python
+    buildCommand: ""
+    startCommand: python servidor_web.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"

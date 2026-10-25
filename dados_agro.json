@@ -1,0 +1,125 @@
+{
+ "regras": [
+  {
+   "id": 1,
+   "tipo": "humidade_baixa",
+   "ativa": true,
+   "parcela": "todas",
+   "limite": 60,
+   "acao": "avisar",
+   "custo_previsto": 0
+  },
+  {
+   "id": 2,
+   "tipo": "stock_baixo",
+   "ativa": true,
+   "parcela": "todas",
+   "limite": 0,
+   "acao": "avisar",
+   "custo_previsto": 0
+  },
+  {
+   "id": 3,
+   "tipo": "praga_ativa",
+   "ativa": true,
+   "parcela": "todas",
+   "limite": 0,
+   "acao": "avisar",
+   "custo_previsto": 20000
+  },
+  {
+   "id": 4,
+   "tipo": "preco_desatualizado",
+   "ativa": true,
+   "parcela": "todas",
+   "limite": 0,
+   "acao": "avisar",
+   "custo_previsto": 0
+  },
+  {
+   "id": 5,
+   "tipo": "produtividade_baixa",
+   "ativa": true,
+   "parcela": "todas",
+   "limite": 75,
+   "acao": "avisar",
+   "custo_previsto": 0
+  }
+ ],
+ "notificacoes": [
+  {
+   "id": 1,
+   "hora": "24/10 01:39:01",
+   "nivel": "media",
+   "texto": "Parcela 3 (Mandioca): humidade 60% abaixo de 60%. Rega recomendada. Tarefa adicionada à escala.",
+   "origem": "Humidade abaixo de 60% em todas as parcelas: recomendar rega e criar tarefa na escala"
+  },
+  {
+   "id": 2,
+   "hora": "24/10 01:42:18",
+   "nivel": "media",
+   "texto": "Parcela 1 (Milho): humidade 60% abaixo de 60%. Rega recomendada. Tarefa adicionada à escala.",
+   "origem": "Humidade abaixo de 60% em todas as parcelas: recomendar rega e criar tarefa na escala"
+  },
+  {
+   "id": 3,
+   "hora": "24/10 01:46:46",
+   "nivel": "media",
+   "texto": "Parcela 3 (Mandioca): humidade 60% abaixo de 60%. Rega recomendada. Tarefa adicionada à escala.",
+   "origem": "Humidade abaixo de 60% em todas as parcelas: recomendar rega e criar tarefa na escala"
+  },
+  {
+   "id": 4,
+   "hora": "24/10 01:49:16",
+   "nivel": "media",
+   "texto": "Parcela 1 (Milho): humidade 60% abaixo de 60%. Rega recomendada. Tarefa adicionada à escala.",
+   "origem": "Humidade abaixo de 60% em todas as parcelas: recomendar rega e criar tarefa na escala"
+  },
+  {
+   "id": 5,
+   "hora": "24/10 01:52:54",
+   "nivel": "media",
+   "texto": "Parcela 3 (Mandioca): humidade 60% abaixo de 60%. Rega recomendada. Tarefa adicionada à escala.",
+   "origem": "Humidade abaixo de 60% em todas as parcelas: recomendar rega e criar tarefa na escala"
+  },
+  {
+   "id": 6,
+   "hora": "24/10 08:47:14",
+   "nivel": "media",
+   "texto": "Parcela 3 (Mandioca): humidade 60% abaixo de 60%. Rega recomendada. Tarefa adicionada à escala.",
+   "origem": "Humidade abaixo de 60% em todas as parcelas: recomendar rega e criar tarefa na escala"
+  },
+  {
+   "id": 7,
+   "hora": "24/10 08:56:16",
+   "nivel": "media",
+   "texto": "Parcela 3 (Mandioca): humidade 60% abaixo de 60%. Rega recomendada. Tarefa adicionada à escala.",
+   "origem": "Humidade abaixo de 60% em todas as parcelas: recomendar rega e criar tarefa na escala"
+  },
+  {
+   "id": 8,
+   "hora": "24/10 08:59:19",
+   "nivel": "media",
+   "texto": "Parcela 1 (Milho): humidade 60% abaixo de 60%. Rega recomendada. Tarefa adicionada à escala.",
+   "origem": "Humidade abaixo de 60% em todas as parcelas: recomendar rega e criar tarefa na escala"
+  },
+  {
+   "id": 9,
+   "hora": "24/10 13:38:55",
+   "nivel": "media",
+   "texto": "Parcela 3 (Mandioca): humidade 60% abaixo de 60%. Rega recomendada. Tarefa adicionada à escala.",
+   "origem": "Humidade abaixo de 60% em todas as parcelas: recomendar rega e criar tarefa na escala"
+  },
+  {
+   "id": 10,
+   "hora": "24/10 13:41:23",
+   "nivel": "media",
+   "texto": "Parcela 1 (Milho): humidade 60% abaixo de 60%. Rega recomendada. Tarefa adicionada à escala.",
+   "origem": "Humidade abaixo de 60% em todas as parcelas: recomendar rega e criar tarefa na escala"
+  }
+ ],
+ "prox": {
+  "r": 6,
+  "n": 11
+ }
+}

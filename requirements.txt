@@ -1,0 +1,2 @@
+# AgroNação usa apenas a biblioteca padrão do Python.
+# Nenhum pacote extra é necessário.

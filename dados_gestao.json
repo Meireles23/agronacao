@@ -1,0 +1,111 @@
+{
+ "funcionarios": [
+  {
+   "id": 1,
+   "nome": "António M.",
+   "funcao": "Operador de irrigação",
+   "equipa": "A",
+   "diaria": 5000,
+   "presencas": []
+  },
+  {
+   "id": 2,
+   "nome": "Maria S.",
+   "funcao": "Manutenção",
+   "equipa": "A",
+   "diaria": 5000,
+   "presencas": []
+  },
+  {
+   "id": 3,
+   "nome": "João P.",
+   "funcao": "Técnico fitossanitário",
+   "equipa": "B",
+   "diaria": 6000,
+   "presencas": []
+  },
+  {
+   "id": 4,
+   "nome": "Luísa C.",
+   "funcao": "Adubação",
+   "equipa": "B",
+   "diaria": 5500,
+   "presencas": []
+  }
+ ],
+ "stocks": [
+  {
+   "id": 1,
+   "nome": "Sementes de milho",
+   "qtd": 120,
+   "unidade": "kg",
+   "minimo": 40,
+   "passo": 10
+  },
+  {
+   "id": 2,
+   "nome": "Sementes de feijão",
+   "qtd": 35,
+   "unidade": "kg",
+   "minimo": 20,
+   "passo": 5
+  },
+  {
+   "id": 3,
+   "nome": "Fertilizante NPK",
+   "qtd": 450,
+   "unidade": "kg",
+   "minimo": 200,
+   "passo": 25
+  },
+  {
+   "id": 4,
+   "nome": "Bio-pesticidas",
+   "qtd": 6,
+   "unidade": "L",
+   "minimo": 20,
+   "passo": 5
+  }
+ ],
+ "movimentos": [
+  {
+   "id": 1,
+   "tipo": "custo",
+   "descricao": "Fertilizante NPK",
+   "valor": 450000,
+   "data": "2026-10-23"
+  },
+  {
+   "id": 2,
+   "tipo": "receita",
+   "descricao": "Venda de feijão (Rede Kifica)",
+   "valor": 576000,
+   "data": "2026-10-23"
+  }
+ ],
+ "prox": {
+  "f": 5,
+  "m": 3,
+  "t": 3,
+  "v": 1
+ },
+ "tarefas": [
+  {
+   "id": 1,
+   "texto": "Regar a parcela 3 (Mandioca)",
+   "equipa": "A",
+   "origem": "Agro",
+   "data": "2026-10-24",
+   "estado": "pendente"
+  },
+  {
+   "id": 2,
+   "texto": "Regar a parcela 1 (Milho)",
+   "equipa": "A",
+   "origem": "Agro",
+   "data": "2026-10-24",
+   "estado": "pendente"
+  }
+ ],
+ "previstos": []
+}
